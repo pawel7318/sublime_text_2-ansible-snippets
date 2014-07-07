@@ -9,7 +9,7 @@ Ansible snippets for Sublime Text 2
 
 ## Installation
 
-`git clone https://github.com/pawel7318/sublime_text_2-ansible-snippets.git ~/.config/sublime-text-2/Packages/`
+`git clone https://github.com/pawel7318/sublime_text_2-ansible-snippets.git ~/.config/sublime-text-2/Packages/Ansible\ Snippets`
 
 
 ## Usage
