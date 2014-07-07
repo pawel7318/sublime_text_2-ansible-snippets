@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+- raw: $1   # free_form           
+           executable=${4: # change the shell used to execute the command. Should be an absolute path to the executable}
+]]></content>
+  <tabTrigger>an-c-raw</tabTrigger>
+  <scope>source.yaml</scope>
+</snippet>
