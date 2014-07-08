@@ -3,8 +3,9 @@ sublime_text_2-ansible-snippets
 
 Ansible snippets for Sublime Text 2
 
-* This is very ealy stage, so most snippets are not ready yet. I'll be more than happy to see a pull request from you.
-* Snippets will NOT provide all available options but only the most popular
+* I'll be more than happy to see a pull request from you.
+* This is very ealy stage, there are not many snippets yet. 
+* Snippets will cover only most popular arguments as the main purpose for them is to make a way to write role's tasks faster.
 
 
 ## Installation
@@ -16,6 +17,7 @@ Ansible snippets for Sublime Text 2
 
 All snippets has syntax: `an-<module category>-<module name>`
 and will work with `source.yaml` scope files. Press `Shift+Ctrl+Alt+P` to check a scope of the file (it'll be shown on the status bar)
+
 
 ## Ansible module categories:
 
