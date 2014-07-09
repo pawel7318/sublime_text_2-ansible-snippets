@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
-  shell: $1   # free_form
-         chdir=${2: # cd into this directory before running the command}
-         creates=${3: # a filename, when it already exists, this step will not be run}
-         executable=${4: # change the shell used to execute the command. Should be an absolute path to the executable}
-         removes=${5: # a filename, when it does not exist, this step will not be run}
+shell: $1   # free_form
+       chdir=${2: # cd into this directory before running the command}
+       creates=${3: # a filename, when it already exists, this step will not be run}
+       executable=${4: # change the shell used to execute the command. Should be an absolute path to the executable}
+       removes=${5: # a filename, when it does not exist, this step will not be run}
 ]]></content>
   <tabTrigger>an-c-shell</tabTrigger>
   <scope>source.yaml</scope>

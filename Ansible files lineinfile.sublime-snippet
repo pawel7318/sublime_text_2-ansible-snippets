@@ -1,14 +1,14 @@
 <snippet>
   <content><![CDATA[
-  lineinfile: dest=${1: # The file to modify}
-              line=${2: # Required for state=present. The line to insert/replace into the file. If backrefs is set, may
-                        # contain backreferences that will get expanded with the regexp capture groups if the regexp matches.
-                        # The backreferences should be double escaped}
-              regexp=${3: # The regular expression to look for in every line of the file. For state=present, the pattern to
-                          # replace if found; only the last line found will be replaced. For state=absent, the pattern of the
-                          # line to remove Uses Python regular expressions; see http://docs.python.org/2/library/re.html}
-              state=${4:present}
-              backup=${5:no # yes}
+lineinfile: dest=${1: # The file to modify}
+            line=${2: # Required for state=present. The line to insert/replace into the file. If backrefs is set, may
+                      # contain backreferences that will get expanded with the regexp capture groups if the regexp matches.
+                      # The backreferences should be double escaped}
+            regexp=${3: # The regular expression to look for in every line of the file. For state=present, the pattern to
+                        # replace if found; only the last line found will be replaced. For state=absent, the pattern of the
+                        # line to remove Uses Python regular expressions; see http://docs.python.org/2/library/re.html}
+            state=${4:present}
+            backup=${5:no # yes}
 ]]></content>
   <tabTrigger>an-f-lineinfile</tabTrigger>
   <scope>source.yaml</scope>

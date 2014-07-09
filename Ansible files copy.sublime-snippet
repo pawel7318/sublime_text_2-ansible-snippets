@@ -1,13 +1,13 @@
 <snippet>
   <content><![CDATA[
-  copy: src=$1
-        dest=$2
-        owner=${3:root}
-        group=${4:root}
-        mode=${5:0640}
-        state=${6:file # link directory hard touch absent}
-        recurse=${7:no # recursively set the specified file attributes (applies only to state=directory)}
-        backup=${8:no}
+copy: src=$1
+      dest=$2
+      owner=${3:root}
+      group=${4:root}
+      mode=${5:0640}
+      state=${6:file # link directory hard touch absent}
+      recurse=${7:no # recursively set the specified file attributes (applies only to state=directory)}
+      backup=${8:no}
 ]]></content>
   <tabTrigger>an-f-copy</tabTrigger>
   <scope>source.yaml</scope>

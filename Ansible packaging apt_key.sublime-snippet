@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-  apt_key: url=$1
-           state=${2:present}           
+apt_key: url=$1
+         state=${2:present}           
 ]]></content>
   <tabTrigger>an-p-apt_key</tabTrigger>
   <scope>source.yaml</scope>
