@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+postgresql_user: name=$1
+                 db=$2
+                 password=$3
+                 encrypted=${4:no}
+                 priv=${5: # ALL/table:ALL}
+                 state=${6:present}
+                 expires=$7
+                 fail_on_user=${8:no # if yes, fail when user can't be removed. Otherwise just log and continue}
+]]></content>
+  <tabTrigger>an-d-postgresql_user</tabTrigger>
+  <scope>source.yaml</scope>
+</snippet>

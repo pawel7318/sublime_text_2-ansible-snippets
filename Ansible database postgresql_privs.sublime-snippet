@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+postgresql_privs: database=$1
+                  state=${2:present}
+                  privs=${3:SELECT,INSERT,UPDATE,DELETE}
+                  type=${4:table # sequence function database schema language tablespace group}
+                  objs=$5
+                  schema=${6:public}
+                  roles=${7: # Comma separated list of role (user/group) names to set permissions for}
+                  grant_option=${8:no}
+]]></content>
+  <tabTrigger>an-d-postgresql_privs</tabTrigger>
+  <scope>source.yaml</scope>
+</snippet>

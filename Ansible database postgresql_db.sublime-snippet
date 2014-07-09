@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+postgresql_db: name=$1
+               owner=$2
+               encoding=${3:'UTF-8'}
+               state=${4:present}
+]]></content>
+  <tabTrigger>an-d-postgresql_db</tabTrigger>
+  <scope>source.yaml</scope>
+</snippet>
