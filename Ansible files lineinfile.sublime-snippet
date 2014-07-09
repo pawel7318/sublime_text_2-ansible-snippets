@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-- lineinfile: dest=${1: # The file to modify}
+  lineinfile: dest=${1: # The file to modify}
               line=${2: # Required for state=present. The line to insert/replace into the file. If backrefs is set, may
                         # contain backreferences that will get expanded with the regexp capture groups if the regexp matches.
                         # The backreferences should be double escaped}

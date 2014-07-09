@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-- apt: name=${1: #A package name, like foo, or package specifier with version, like foo=1.0. Wildcards (fnmatch) like apt* are also supported}
+  apt: name=${1: #A package name, like foo, or package specifier with version, like foo=1.0. Wildcards (fnmatch) like apt* are also supported}
        deb=${2: # Path to a .deb package on the remote machine}
        state=${3:present}
        update_cache=${4:yes}

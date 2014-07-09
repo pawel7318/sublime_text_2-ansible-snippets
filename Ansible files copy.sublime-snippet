@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-- copy: src=$1
+  copy: src=$1
         dest=$2
         owner=${3:root}
         group=${4:root}
