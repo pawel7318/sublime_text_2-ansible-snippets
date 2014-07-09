@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+service: name=$1
+         state=${2:restarted # reloaded started stopped}
+         enabled=${3:yes}
+         sleep=$4         
+]]></content>
+  <tabTrigger>an-sys-service</tabTrigger>
+  <scope>source.yaml</scope>
+</snippet>
