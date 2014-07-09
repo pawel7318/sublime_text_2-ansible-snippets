@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+git: repo=$1
+     dest=$2
+     version=${3:HEAD}
+     update=${4:yes}
+     depth=${5:1}
+     accept_hostkey=${6:no}
+]]></content>
+  <tabTrigger>an-s-git</tabTrigger>
+  <scope>source.yaml</scope>
+</snippet>
